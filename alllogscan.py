@@ -24,7 +24,7 @@ pythonlog =  '/root/mylog.txt'
 
 ETCDURL   = "http://127.0.0.1:2379/v2/keys/"             #etcd url
 ETCDKEYS  = "dhcp-oob"                                   #u can use the hostname of the dhcp server
-ETCDTTL   = "31536000"                                   #12 hour  ==  dhcp lease max  time,   20170328改为1年
+ETCDTTL   = "31536000"                                   #1年
 
 #-------parameter-------
 sms_off = 1    #if you want trun off sms ,please set to 1
